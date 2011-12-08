@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCEF9E7A1490900B00E6BEE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF9E791490900B00E6BEE0 /* UIKit.framework */; };
+		FCEF9E7C1490900B00E6BEE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF9E7B1490900B00E6BEE0 /* Foundation.framework */; };
+		FCEF9E7E1490900B00E6BEE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF9E7D1490900B00E6BEE0 /* CoreGraphics.framework */; };
+		FCEF9E841490900B00E6BEE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCEF9E821490900B00E6BEE0 /* InfoPlist.strings */; };
+		FCEF9E861490900B00E6BEE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF9E851490900B00E6BEE0 /* main.m */; };
+		FCEF9E8A1490900B00E6BEE0 /* MorseCodeTutorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF9E891490900B00E6BEE0 /* MorseCodeTutorAppDelegate.m */; };
+		FCEF9E8D1490900B00E6BEE0 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF9E8B1490900B00E6BEE0 /* MainStoryboard_iPhone.storyboard */; };
+		FCEF9E901490900B00E6BEE0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF9E8E1490900B00E6BEE0 /* MainStoryboard_iPad.storyboard */; };
+		FCEF9E931490900B00E6BEE0 /* MorseCodeTutorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF9E921490900B00E6BEE0 /* MorseCodeTutorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCEF9E751490900B00E6BEE0 /* Aviation Morse Code Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aviation Morse Code Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEF9E791490900B00E6BEE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCEF9E7B1490900B00E6BEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCEF9E7D1490900B00E6BEE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCEF9E811490900B00E6BEE0 /* Aviation Morse Code Tutor-Info.plist */ = {isa = PBXFileReference; path = "Aviation Morse Code Tutor-Info.plist"; sourceTree = "<group>"; };
+		FCEF9E831490900B00E6BEE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCEF9E851490900B00E6BEE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCEF9E871490900B00E6BEE0 /* Aviation Morse Code Tutor-Prefix.pch */ = {isa = PBXFileReference; path = "Aviation Morse Code Tutor-Prefix.pch"; sourceTree = "<group>"; };
+		FCEF9E881490900B00E6BEE0 /* MorseCodeTutorAppDelegate.h */ = {isa = PBXFileReference; path = MorseCodeTutorAppDelegate.h; sourceTree = "<group>"; };
+		FCEF9E891490900B00E6BEE0 /* MorseCodeTutorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTutorAppDelegate.m; sourceTree = "<group>"; };
+		FCEF9E8C1490900B00E6BEE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FCEF9E8F1490900B00E6BEE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FCEF9E911490900B00E6BEE0 /* MorseCodeTutorViewController.h */ = {isa = PBXFileReference; path = MorseCodeTutorViewController.h; sourceTree = "<group>"; };
+		FCEF9E921490900B00E6BEE0 /* MorseCodeTutorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTutorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCEF9E721490900B00E6BEE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF9E7A1490900B00E6BEE0 /* UIKit.framework in Frameworks */,
+				FCEF9E7C1490900B00E6BEE0 /* Foundation.framework in Frameworks */,
+				FCEF9E7E1490900B00E6BEE0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCEF9E6A1490900B00E6BEE0 = {
+			isa = PBXGroup;
+			children = (
+				FCEF9E7F1490900B00E6BEE0 /* Aviation Morse Code Tutor */,
+				FCEF9E781490900B00E6BEE0 /* Frameworks */,
+				FCEF9E761490900B00E6BEE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCEF9E761490900B00E6BEE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF9E751490900B00E6BEE0 /* Aviation Morse Code Tutor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCEF9E781490900B00E6BEE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF9E791490900B00E6BEE0 /* UIKit.framework */,
+				FCEF9E7B1490900B00E6BEE0 /* Foundation.framework */,
+				FCEF9E7D1490900B00E6BEE0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCEF9E7F1490900B00E6BEE0 /* Aviation Morse Code Tutor */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF9E881490900B00E6BEE0 /* MorseCodeTutorAppDelegate.h */,
+				FCEF9E891490900B00E6BEE0 /* MorseCodeTutorAppDelegate.m */,
+				FCEF9E8B1490900B00E6BEE0 /* MainStoryboard_iPhone.storyboard */,
+				FCEF9E8E1490900B00E6BEE0 /* MainStoryboard_iPad.storyboard */,
+				FCEF9E911490900B00E6BEE0 /* MorseCodeTutorViewController.h */,
+				FCEF9E921490900B00E6BEE0 /* MorseCodeTutorViewController.m */,
+				FCEF9E801490900B00E6BEE0 /* Supporting Files */,
+			);
+			path = "Aviation Morse Code Tutor";
+			sourceTree = "<group>";
+		};
+		FCEF9E801490900B00E6BEE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCEF9E811490900B00E6BEE0 /* Aviation Morse Code Tutor-Info.plist */,
+				FCEF9E821490900B00E6BEE0 /* InfoPlist.strings */,
+				FCEF9E851490900B00E6BEE0 /* main.m */,
+				FCEF9E871490900B00E6BEE0 /* Aviation Morse Code Tutor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCEF9E741490900B00E6BEE0 /* Aviation Morse Code Tutor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEF9E961490900B00E6BEE0 /* Build configuration list for PBXNativeTarget "Aviation Morse Code Tutor" */;
+			buildPhases = (
+				FCEF9E711490900B00E6BEE0 /* Sources */,
+				FCEF9E721490900B00E6BEE0 /* Frameworks */,
+				FCEF9E731490900B00E6BEE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aviation Morse Code Tutor";
+			productName = "Aviation Morse Code Tutor";
+			productReference = FCEF9E751490900B00E6BEE0 /* Aviation Morse Code Tutor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCEF9E6C1490900B00E6BEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FCEF9E6F1490900B00E6BEE0 /* Build configuration list for PBXProject "Aviation Morse Code Tutor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCEF9E6A1490900B00E6BEE0;
+			productRefGroup = FCEF9E761490900B00E6BEE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCEF9E741490900B00E6BEE0 /* Aviation Morse Code Tutor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCEF9E731490900B00E6BEE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF9E841490900B00E6BEE0 /* InfoPlist.strings in Resources */,
+				FCEF9E8D1490900B00E6BEE0 /* MainStoryboard_iPhone.storyboard in Resources */,
+				FCEF9E901490900B00E6BEE0 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCEF9E711490900B00E6BEE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEF9E861490900B00E6BEE0 /* main.m in Sources */,
+				FCEF9E8A1490900B00E6BEE0 /* MorseCodeTutorAppDelegate.m in Sources */,
+				FCEF9E931490900B00E6BEE0 /* MorseCodeTutorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCEF9E821490900B00E6BEE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEF9E831490900B00E6BEE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCEF9E8B1490900B00E6BEE0 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEF9E8C1490900B00E6BEE0 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FCEF9E8E1490900B00E6BEE0 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCEF9E8F1490900B00E6BEE0 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCEF9E941490900B00E6BEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCEF9E951490900B00E6BEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCEF9E971490900B00E6BEE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aviation Morse Code Tutor/Aviation Morse Code Tutor-Prefix.pch";
+				INFOPLIST_FILE = "Aviation Morse Code Tutor/Aviation Morse Code Tutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCEF9E981490900B00E6BEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Aviation Morse Code Tutor/Aviation Morse Code Tutor-Prefix.pch";
+				INFOPLIST_FILE = "Aviation Morse Code Tutor/Aviation Morse Code Tutor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCEF9E6F1490900B00E6BEE0 /* Build configuration list for PBXProject "Aviation Morse Code Tutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEF9E941490900B00E6BEE0 /* Debug */,
+				FCEF9E951490900B00E6BEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEF9E961490900B00E6BEE0 /* Build configuration list for PBXNativeTarget "Aviation Morse Code Tutor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEF9E971490900B00E6BEE0 /* Debug */,
+				FCEF9E981490900B00E6BEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCEF9E6C1490900B00E6BEE0 /* Project object */;
+}
