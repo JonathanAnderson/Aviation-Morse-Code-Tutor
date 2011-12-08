@@ -16,6 +16,7 @@
 		FCEF9E8D1490900B00E6BEE0 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF9E8B1490900B00E6BEE0 /* MainStoryboard_iPhone.storyboard */; };
 		FCEF9E901490900B00E6BEE0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF9E8E1490900B00E6BEE0 /* MainStoryboard_iPad.storyboard */; };
 		FCEF9E931490900B00E6BEE0 /* MorseCodeTutorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF9E921490900B00E6BEE0 /* MorseCodeTutorViewController.m */; };
+		FCEF9E9B1490908E00E6BEE0 /* MorseCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF9E9A1490908E00E6BEE0 /* MorseCodeModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		FCEF9E8F1490900B00E6BEE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		FCEF9E911490900B00E6BEE0 /* MorseCodeTutorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorseCodeTutorViewController.h; sourceTree = "<group>"; };
 		FCEF9E921490900B00E6BEE0 /* MorseCodeTutorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTutorViewController.m; sourceTree = "<group>"; };
+		FCEF9E991490908E00E6BEE0 /* MorseCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseCodeModel.h; sourceTree = "<group>"; };
+		FCEF9E9A1490908E00E6BEE0 /* MorseCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseCodeModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				FCEF9E911490900B00E6BEE0 /* MorseCodeTutorViewController.h */,
 				FCEF9E921490900B00E6BEE0 /* MorseCodeTutorViewController.m */,
 				FCEF9E801490900B00E6BEE0 /* Supporting Files */,
+				FCEF9E991490908E00E6BEE0 /* MorseCodeModel.h */,
+				FCEF9E9A1490908E00E6BEE0 /* MorseCodeModel.m */,
 			);
 			path = "Aviation Morse Code Tutor";
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				FCEF9E861490900B00E6BEE0 /* main.m in Sources */,
 				FCEF9E8A1490900B00E6BEE0 /* MorseCodeTutorAppDelegate.m in Sources */,
 				FCEF9E931490900B00E6BEE0 /* MorseCodeTutorViewController.m in Sources */,
+				FCEF9E9B1490908E00E6BEE0 /* MorseCodeModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
