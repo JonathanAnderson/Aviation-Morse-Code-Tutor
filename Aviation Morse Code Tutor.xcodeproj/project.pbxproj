@@ -23,15 +23,15 @@
 		FCEF9E791490900B00E6BEE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCEF9E7B1490900B00E6BEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCEF9E7D1490900B00E6BEE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FCEF9E811490900B00E6BEE0 /* Aviation Morse Code Tutor-Info.plist */ = {isa = PBXFileReference; path = "Aviation Morse Code Tutor-Info.plist"; sourceTree = "<group>"; };
+		FCEF9E811490900B00E6BEE0 /* Aviation Morse Code Tutor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Aviation Morse Code Tutor-Info.plist"; sourceTree = "<group>"; };
 		FCEF9E831490900B00E6BEE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FCEF9E851490900B00E6BEE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FCEF9E871490900B00E6BEE0 /* Aviation Morse Code Tutor-Prefix.pch */ = {isa = PBXFileReference; path = "Aviation Morse Code Tutor-Prefix.pch"; sourceTree = "<group>"; };
-		FCEF9E881490900B00E6BEE0 /* MorseCodeTutorAppDelegate.h */ = {isa = PBXFileReference; path = MorseCodeTutorAppDelegate.h; sourceTree = "<group>"; };
+		FCEF9E871490900B00E6BEE0 /* Aviation Morse Code Tutor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aviation Morse Code Tutor-Prefix.pch"; sourceTree = "<group>"; };
+		FCEF9E881490900B00E6BEE0 /* MorseCodeTutorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorseCodeTutorAppDelegate.h; sourceTree = "<group>"; };
 		FCEF9E891490900B00E6BEE0 /* MorseCodeTutorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTutorAppDelegate.m; sourceTree = "<group>"; };
 		FCEF9E8C1490900B00E6BEE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		FCEF9E8F1490900B00E6BEE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		FCEF9E911490900B00E6BEE0 /* MorseCodeTutorViewController.h */ = {isa = PBXFileReference; path = MorseCodeTutorViewController.h; sourceTree = "<group>"; };
+		FCEF9E911490900B00E6BEE0 /* MorseCodeTutorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorseCodeTutorViewController.h; sourceTree = "<group>"; };
 		FCEF9E921490900B00E6BEE0 /* MorseCodeTutorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTutorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
