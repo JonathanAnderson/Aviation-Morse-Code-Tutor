@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MorseCodeTutorViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *text;
+@property (weak, nonatomic) IBOutlet UILabel *code;
 
 @end

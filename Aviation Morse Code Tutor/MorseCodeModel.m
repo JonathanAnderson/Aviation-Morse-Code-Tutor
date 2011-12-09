@@ -30,86 +30,85 @@ NSDictionary *morseToText;
 + (void)initialize {
     if (!morseToText) {
         morseToText = [[NSDictionary alloc] initWithObjectsAndKeys:
-                       @"1", @".----",
-                       @"2", @"..---",
-                       @"3", @"...--",
-                       @"4", @"....-",
-                       @"5", @".....",
-                       @"6", @"-....",
-                       @"7", @"--...",
-                       @"8", @"---..",
-                       @"9", @"----.",
+                       @"1", @"•----",
+                       @"2", @"••---",
+                       @"3", @"•••--",
+                       @"4", @"••••-",
+                       @"5", @"•••••",
+                       @"6", @"-••••",
+                       @"7", @"--•••",
+                       @"8", @"---••",
+                       @"9", @"----•",
                        @"0", @"-----",
-                       @"A", @".-",
-                       @"B", @"-...",
-                       @"C", @"-.-.",
-                       @"D", @"-..",
-                       @"E", @".",
-                       @"F", @"..-.",
-                       @"G", @"--.",
-                       @"H", @"....",
-                       @"I", @"..",
-                       @"J", @".---",
-                       @"K", @"-.-",
-                       @"L", @".-..",
+                       @"A", @"•-",
+                       @"B", @"-•••",
+                       @"C", @"-•-•",
+                       @"D", @"-••",
+                       @"E", @"•",
+                       @"F", @"••-•",
+                       @"G", @"--•",
+                       @"H", @"••••",
+                       @"I", @"••",
+                       @"J", @"•---",
+                       @"K", @"-•-",
+                       @"L", @"•-••",
                        @"M", @"--",
-                       @"N", @"-.",
+                       @"N", @"-•",
                        @"O", @"---",
-                       @"P", @".--.",
-                       @"Q", @"--.-",
-                       @"R", @".-.",
-                       @"S", @"...",
+                       @"P", @"•--•",
+                       @"Q", @"--•-",
+                       @"R", @"•-•",
+                       @"S", @"•••",
                        @"T", @"-",
-                       @"U", @"..-",
-                       @"V", @"...-",
-                       @"W", @".--",
-                       @"X", @"-..-",
-                       @"Y", @"-.--",
-                       @"Z", @"--..",
+                       @"U", @"••-",
+                       @"V", @"•••-",
+                       @"W", @"•--",
+                       @"X", @"-••-",
+                       @"Y", @"-•--",
+                       @"Z", @"--••",
                        nil];
     }
     if (!textToMorse) {
         textToMorse = [[NSDictionary alloc] initWithObjectsAndKeys:
-                       @".----", @"1",
-                       @"..---", @"2",
-                       @"...--", @"3",
-                       @"....-", @"4",
-                       @".....", @"5",
-                       @"-....", @"6",
-                       @"--...", @"7",
-                       @"---..", @"8",
-                       @"----.", @"9",
+                       @"•----", @"1",
+                       @"••---", @"2",
+                       @"•••--", @"3",
+                       @"••••-", @"4",
+                       @"•••••", @"5",
+                       @"-••••", @"6",
+                       @"--•••", @"7",
+                       @"---••", @"8",
+                       @"----•", @"9",
                        @"-----", @"0",
-                       @".-"   , @"A",
-                       @"-..." , @"B",
-                       @"-.-." , @"C",
-                       @"-.."  , @"D",
-                       @"."    , @"E",
-                       @"..-." , @"F",
-                       @"--."  , @"G",
-                       @"...." , @"H",
-                       @".."   , @"I",
-                       @".---" , @"J",
-                       @"-.-"  , @"K",
-                       @".-.." , @"L",
+                       @"•-"   , @"A",
+                       @"-•••" , @"B",
+                       @"-•-•" , @"C",
+                       @"-••"  , @"D",
+                       @"•"    , @"E",
+                       @"••-•" , @"F",
+                       @"--•"  , @"G",
+                       @"••••" , @"H",
+                       @"••"   , @"I",
+                       @"•---" , @"J",
+                       @"-•-"  , @"K",
+                       @"•-••" , @"L",
                        @"--"   , @"M",
-                       @"-."   , @"N",
+                       @"-•"   , @"N",
                        @"---"  , @"O",
-                       @".--." , @"P",
-                       @"--.-" , @"Q",
-                       @".-."  , @"R",
-                       @"..."  , @"S",
+                       @"•--•" , @"P",
+                       @"--•-" , @"Q",
+                       @"•-•"  , @"R",
+                       @"•••"  , @"S",
                        @"-"    , @"T",
-                       @"..-"  , @"U",
-                       @"...-" , @"V",
-                       @".--"  , @"W",
-                       @"-..-" , @"X",
-                       @"-.--" , @"Y",
-                       @"--.." , @"Z",
+                       @"••-"  , @"U",
+                       @"•••-" , @"V",
+                       @"•--"  , @"W",
+                       @"-••-" , @"X",
+                       @"-•--" , @"Y",
+                       @"--••" , @"Z",
                        nil];
     }
 }
-
 + (NSString *)textToMorse:(NSString *)text {
     NSString *result = @"";
     NSRange range;
@@ -137,7 +136,9 @@ NSDictionary *morseToText;
     for (int i=0; i<[morse length]; i++) {
         range.location = i;
         NSString *nextChar = [morse substringWithRange:range];
-        if ([nextChar isEqualToString:@"."] || [nextChar isEqualToString:@"-"]) {
+        if ([nextChar isEqualToString:@"•"] ||
+            [nextChar isEqualToString:@"."] ||
+            [nextChar isEqualToString:@"-"]) {
             morseLetter = [morseLetter stringByAppendingString:nextChar];
         } else if ([nextChar isEqualToString:@" "]) {
             NSString *textLetter = [morseToText objectForKey:morseLetter];
@@ -188,7 +189,7 @@ NSDictionary *morseToText;
     self.tapEndTime = [NSDate date];
     NSTimeInterval timeSinceLastTap = [self.tapEndTime timeIntervalSinceDate:self.tapBegTime];
     if (timeSinceLastTap < self.ditThreshold) {
-        self.morse = [self.morse stringByAppendingString:@"."];
+        self.morse = [self.morse stringByAppendingString:@"•"];
     } else {
         self.morse = [self.morse stringByAppendingString:@"-"];
     }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC886ED71491CEEB0082FC06 /* NavaidDistanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC886ED61491CEEB0082FC06 /* NavaidDistanceModel.m */; };
+		FC886EDA1491CFD10082FC06 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC886ED91491CFD10082FC06 /* CoreLocation.framework */; };
+		FC886F261491EEE40082FC06 /* navaids.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC886F251491EEE40082FC06 /* navaids.plist */; };
 		FCEF9E7A1490900B00E6BEE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF9E791490900B00E6BEE0 /* UIKit.framework */; };
 		FCEF9E7C1490900B00E6BEE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF9E7B1490900B00E6BEE0 /* Foundation.framework */; };
 		FCEF9E7E1490900B00E6BEE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF9E7D1490900B00E6BEE0 /* CoreGraphics.framework */; };
@@ -17,9 +20,15 @@
 		FCEF9E901490900B00E6BEE0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCEF9E8E1490900B00E6BEE0 /* MainStoryboard_iPad.storyboard */; };
 		FCEF9E931490900B00E6BEE0 /* MorseCodeTutorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF9E921490900B00E6BEE0 /* MorseCodeTutorViewController.m */; };
 		FCEF9E9B1490908E00E6BEE0 /* MorseCodeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF9E9A1490908E00E6BEE0 /* MorseCodeModel.m */; };
+		FCEF9EA41491496B00E6BEE0 /* MorseCodePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FCEF9EA31491496B00E6BEE0 /* MorseCodePlayer.m */; };
+		FCEF9EAE14914E8500E6BEE0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCEF9EAD14914E8500E6BEE0 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC886ED51491CEEB0082FC06 /* NavaidDistanceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavaidDistanceModel.h; sourceTree = "<group>"; };
+		FC886ED61491CEEB0082FC06 /* NavaidDistanceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavaidDistanceModel.m; sourceTree = "<group>"; };
+		FC886ED91491CFD10082FC06 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC886F251491EEE40082FC06 /* navaids.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = navaids.plist; sourceTree = "<group>"; };
 		FCEF9E751490900B00E6BEE0 /* Aviation Morse Code Tutor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aviation Morse Code Tutor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCEF9E791490900B00E6BEE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCEF9E7B1490900B00E6BEE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +45,9 @@
 		FCEF9E921490900B00E6BEE0 /* MorseCodeTutorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeTutorViewController.m; sourceTree = "<group>"; };
 		FCEF9E991490908E00E6BEE0 /* MorseCodeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseCodeModel.h; sourceTree = "<group>"; };
 		FCEF9E9A1490908E00E6BEE0 /* MorseCodeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseCodeModel.m; sourceTree = "<group>"; };
+		FCEF9EA21491496B00E6BEE0 /* MorseCodePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseCodePlayer.h; sourceTree = "<group>"; };
+		FCEF9EA31491496B00E6BEE0 /* MorseCodePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseCodePlayer.m; sourceTree = "<group>"; };
+		FCEF9EAD14914E8500E6BEE0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC886EDA1491CFD10082FC06 /* CoreLocation.framework in Frameworks */,
+				FCEF9EAE14914E8500E6BEE0 /* AVFoundation.framework in Frameworks */,
 				FCEF9E7A1490900B00E6BEE0 /* UIKit.framework in Frameworks */,
 				FCEF9E7C1490900B00E6BEE0 /* Foundation.framework in Frameworks */,
 				FCEF9E7E1490900B00E6BEE0 /* CoreGraphics.framework in Frameworks */,
@@ -72,6 +86,8 @@
 		FCEF9E781490900B00E6BEE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC886ED91491CFD10082FC06 /* CoreLocation.framework */,
+				FCEF9EAD14914E8500E6BEE0 /* AVFoundation.framework */,
 				FCEF9E791490900B00E6BEE0 /* UIKit.framework */,
 				FCEF9E7B1490900B00E6BEE0 /* Foundation.framework */,
 				FCEF9E7D1490900B00E6BEE0 /* CoreGraphics.framework */,
@@ -91,6 +107,10 @@
 				FCEF9E801490900B00E6BEE0 /* Supporting Files */,
 				FCEF9E991490908E00E6BEE0 /* MorseCodeModel.h */,
 				FCEF9E9A1490908E00E6BEE0 /* MorseCodeModel.m */,
+				FCEF9EA21491496B00E6BEE0 /* MorseCodePlayer.h */,
+				FCEF9EA31491496B00E6BEE0 /* MorseCodePlayer.m */,
+				FC886ED51491CEEB0082FC06 /* NavaidDistanceModel.h */,
+				FC886ED61491CEEB0082FC06 /* NavaidDistanceModel.m */,
 			);
 			path = "Aviation Morse Code Tutor";
 			sourceTree = "<group>";
@@ -98,6 +118,7 @@
 		FCEF9E801490900B00E6BEE0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FC886F251491EEE40082FC06 /* navaids.plist */,
 				FCEF9E811490900B00E6BEE0 /* Aviation Morse Code Tutor-Info.plist */,
 				FCEF9E821490900B00E6BEE0 /* InfoPlist.strings */,
 				FCEF9E851490900B00E6BEE0 /* main.m */,
@@ -159,6 +180,7 @@
 				FCEF9E841490900B00E6BEE0 /* InfoPlist.strings in Resources */,
 				FCEF9E8D1490900B00E6BEE0 /* MainStoryboard_iPhone.storyboard in Resources */,
 				FCEF9E901490900B00E6BEE0 /* MainStoryboard_iPad.storyboard in Resources */,
+				FC886F261491EEE40082FC06 /* navaids.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +195,8 @@
 				FCEF9E8A1490900B00E6BEE0 /* MorseCodeTutorAppDelegate.m in Sources */,
 				FCEF9E931490900B00E6BEE0 /* MorseCodeTutorViewController.m in Sources */,
 				FCEF9E9B1490908E00E6BEE0 /* MorseCodeModel.m in Sources */,
+				FCEF9EA41491496B00E6BEE0 /* MorseCodePlayer.m in Sources */,
+				FC886ED71491CEEB0082FC06 /* NavaidDistanceModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +280,10 @@
 		FCEF9E971490900B00E6BEE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aviation Morse Code Tutor/Aviation Morse Code Tutor-Prefix.pch";
 				INFOPLIST_FILE = "Aviation Morse Code Tutor/Aviation Morse Code Tutor-Info.plist";
@@ -267,6 +295,10 @@
 		FCEF9E981490900B00E6BEE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Aviation Morse Code Tutor/Aviation Morse Code Tutor-Prefix.pch";
 				INFOPLIST_FILE = "Aviation Morse Code Tutor/Aviation Morse Code Tutor-Info.plist";
@@ -294,6 +326,7 @@
 				FCEF9E981490900B00E6BEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
